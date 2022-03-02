@@ -13,7 +13,14 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kyuwon53&show_icons=true&locale=en" alt="kyuwon53" /></p>
 
 <p align="center">
-  <img align="center" width="400" src="https://github.com/Kyuwon53/Kyuwon53/blob/master/github-metrics.svg">
+  <img src="/github-metrics.svg" alt="Metrics" width="100%">
 </p>
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kyuwon53&" alt="kyuwon53" /></p>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=kyuwon53&label=Profile%20views&color=0e75b6&style=flat" alt="kyuwon53" /> </p>
+
+<p>
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kyuwon53&" alt="kyuwon53" />
+</p>
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=kyuwon53&label=Profile%20views&color=0e75b6&style=flat" alt="kyuwon53" /> 
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23FFDC67&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">
+</p>
+
