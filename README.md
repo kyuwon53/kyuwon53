@@ -1,7 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=FFDC54&height=300&section=header&text=KyuWon%20Lee&fontSize=90)
+<div align="center">
 <h3 align="center">Hi 👋, I'm Kyuwon</h1>
 
-- 🔥 A passionate Junior Back-end developer 🔥
+<p>  🔥 A passionate Junior Back-end developer 🔥</p>
 <br><br><br>
 
 
@@ -24,3 +25,4 @@
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23FFDC67&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">
 </p>
 
+</div>
