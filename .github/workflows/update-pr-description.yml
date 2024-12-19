@@ -1,0 +1,81 @@
+name: Update PR Description with Commit History for release branch
+
+on:
+  pull_request:
+    branches:
+      - release
+      - main
+
+jobs:
+  update-pr-body:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v3
+
+      - name: Get PR commits and update description with links
+        run: |
+          # PR 번호 가져오기
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          
+          # PR 제목 가져오기
+          PR_TITLE="${{ github.event.pull_request.title }}"
+          
+          # PR 링크 가져오기 
+          PR_LINK="${{ github.event.pull_request.html_url }}"
+
+          # 타겟 브랜치 가져오기
+          TARGET_BRANCH="${{ github.event.pull_request.base.ref }}"
+
+          if [[ "$TARGET_BRANCH" == "release" ]]; then
+            echo "Processing PR targeting release branch"
+
+            # dev -> release 사이의 모든 PR 정보 수집
+            git fetch origin dev
+            PR_LIST=$(git log origin/release..origin/dev --merges --pretty=format:"* PR #%h - %s")
+          
+            # 본문 업데이트 내용 준비
+            PR_BODY=$'### :memo: Release PR List (dev -> release):\n\n'"$PR_LIST"
+
+          elif [[ "$TARGET_BRANCH" == "main" ]]; then
+            echo "Processing PR targeting main branch"
+
+            # 브랜치 소스 확인 (dev 또는 release)
+            SOURCE_BRANCH="${{ github.event.pull_request.head.ref }}"
+
+            if [[ "$SOURCE_BRANCH" == "dev" ]]; then
+              echo "Source branch is dev. Generating dev -> main PR list."
+
+              # dev -> main 사이의 모든 PR 정보 수집
+              git fetch origin dev
+              PR_LIST=$(git log origin/main..origin/dev --merges --pretty=format:"* PR #%h - %s")
+              
+              PR_BODY=$'### :memo: Release PR List (dev -> main):\n\n'"$PR_LIST"
+
+            elif [[ "$SOURCE_BRANCH" == "release" ]]; then
+              echo "Source branch is release. Generating release -> main PR list."
+
+              # release -> main 사이의 모든 PR 정보 수집
+              git fetch origin release
+              PR_LIST=$(git log origin/main..origin/release --merges --pretty=format:"* PR #%h - %s")
+              
+              PR_BODY=$'### :memo: Release PR List (release -> main):\n\n'"$PR_LIST"
+            else
+              echo "Unsupported source branch: $SOURCE_BRANCH"
+              exit 1
+            fi
+
+          else
+            echo "Unsupported target branch: $TARGET_BRANCH"
+            exit 1
+          fi
+
+          # 현재 PR 정보 추가
+          PR_BODY+=$'\n\n### Current PR:\n * PR #'"$PR_NUMBER"' - ['"$PR_TITLE"']('"$PR_LINK"')'
+
+          # PR 본문 업데이트
+          gh pr edit $PR_NUMBER --body "$PR_BODY"
+          
+        env:
+          GH_TOKEN: ${{ github.token }}  # GitHub CLI에서 사용할 토큰
