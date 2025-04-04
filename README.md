@@ -6,8 +6,8 @@
 </p>
 
 <h3 align="center">Hi 👋, I'm Kyuwon</h1>
-<p>  🔥 A passionate Back-end developer 🔥</p>
-<p> 사람을 생각하는 개발자 🍀 </p>
+<p>  🔥 A passionate Back-end software engineer 🔥</p>
+<p>  🍀 사람을 생각하는 개발자 🍀 </p>
 <br>
 <p align="center"> 
 <img src="https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
