@@ -1,9 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=FFDC54&height=300&section=header&text=KyuWon%20Lee&fontSize=90)
 
-<p align="center">
-
-  ![Profile Views](https://komarev.com/ghpvc/?username=kyuwon53&label=Profile%20views&color=0e75b6&style=flat)
-</p>
+![Profile Views](https://komarev.com/ghpvc/?username=kyuwon53&label=Profile%20views&color=0e75b6&style=flat)
 
 ## 👋 Hi, I'm Kyuwon
 
@@ -30,17 +27,9 @@ and grow together through **collaboration and feedback**.
 ---
 
 ## 📊 GitHub Stats
-<p align="center">
 
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=kyuwon53&show_icons=true&locale=en&layout=compact)
-</p>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=kyuwon53&show_icons=true&locale=en&layout=compact)
 
-<p align="center">
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kyuwon53&show_icons=true&locale=en)
 
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kyuwon53&show_icons=true&locale=en)
-</p>
-
-<p align="center">
-
-  ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=kyuwon53)
-</p>
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=kyuwon53)
