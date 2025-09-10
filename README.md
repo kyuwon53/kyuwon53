@@ -19,13 +19,18 @@ and grow together through **collaboration and feedback**.
 
 ***
 
-<p align="center"> 
-<div align="center>
-<img src="https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=python&logoColor=white"> 
+---
+
+## 🛠 Tech & Tools
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 </p>
+
+<div align="center">
+<p align="center"> 
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kyuwon53&show_icons=true&locale=en&layout=compact" alt="kyuwon53" /></p>
 
