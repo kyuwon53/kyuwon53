@@ -1,15 +1,26 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=FFDC54&height=300&section=header&text=KyuWon%20Lee&fontSize=90)
-<div align="center">
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=kyuwon53&label=Profile%20views&color=0e75b6&style=flat" alt="kyuwon53" /> 
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23FFDC67&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">
 </p>
 
-<h3 align="center">Hi 👋, I'm Kyuwon</h1>
-<p>  🔥 A passionate Back-end software engineer 🔥</p>
-<p>  🍀 사람을 생각하는 개발자 🍀 </p>
-<br>
+### Hi 👋, I'm Kyuwon
+
+### 💻 About Me
+I am a **backend engineer** who **quickly understands and adapts to new domains**, creating **structural impact** in every project.  
+With experience across **commerce, manufacturing, and taxation**, I have consistently delivered results through **fast learning** and **adaptability**.  
+
+I **analyze requirements thoroughly**, deliver **high-quality outcomes within short cycles**, and choose the **right tools for the context**.  
+I excel at **planning and designing domains from the user’s perspective**, a strength that has been **recognized by peers and stakeholders**.  
+When needed, I also **take on frontend tasks**, contributing to the **entire project lifecycle**.  
+
+When solving problems, I focus on **identifying the essence of what truly needs to be solved**, make **data-driven decisions**,  
+and grow together through **collaboration and feedback**.  
+
+***
+
 <p align="center"> 
+<div align="center>
 <img src="https://img.shields.io/badge/kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
@@ -28,5 +39,4 @@
 <p>
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kyuwon53&" alt="kyuwon53" />
 </p>
-
 </div>
